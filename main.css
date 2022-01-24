@@ -85,7 +85,7 @@ h6 {
   column-gap: 25px;
 }
 
-.nav > button {
+.cta-btn {
   border-radius: 24px;
   background: linear-gradient(to right, var(--green), var(--cyan));
   width: 180px;
@@ -93,4 +93,23 @@ h6 {
   border: none;
   color: white;
   font-weight: 600;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 0 100px;
+  margin: 0 auto;
+  background-color: var(--dark);
+  height: 200px;
+}
+
+.social-icons {
+  color: white;
+  display: flex;
+  column-gap: 10px;
+}
+
+.copyright {
+  color: white;
 }
